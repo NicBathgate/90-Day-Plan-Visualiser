@@ -38,6 +38,9 @@ body {
   z-index: 3;
   cursor: pointer;
 }
+.editModeButton:hover {
+  color: white !important;
+}
 .Circles {
   flex: none;
   /*max-width: 50%;*/
