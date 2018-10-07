@@ -21,6 +21,23 @@ body {
   /*background-size: cover;*/
 }
 
+.Draggable {
+  user-select: none;
+}
+.editModeButton {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  line-height: 70px;
+  padding: 0;
+  color: #E6E7E8;
+  z-index: 3;
+  cursor: pointer;
+}
 .Circles {
   flex: none;
   /*max-width: 50%;*/
@@ -34,12 +51,14 @@ body {
   top: -60px;
   left: -180px;
   width: 120%;
+  user-select: none;
 }
 .Background {
   position: absolute;
   top: -154px;
   left: -25px;
   width: 100%;
+  user-select: none;
 }
 
 .highlight {
@@ -49,6 +68,7 @@ body {
   background-color: #000;
   opacity: 0.85;
   z-index: 10;
+  user-select: none;
 }
 
 .greyRings1, .greyRings2, .greyRings3 {
@@ -83,7 +103,8 @@ body {
   width: 500px;
   padding: 35px;
   background-color: #E6E7E8;
-  z-index: 2
+  z-index: 2;
+  cursor: pointer;
 }
 .outer-circle hr {
   position: absolute;

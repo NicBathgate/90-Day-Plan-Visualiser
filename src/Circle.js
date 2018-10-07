@@ -4,7 +4,7 @@ import React from 'react';
 const Circle = ({circleText, effortPoints, owner, sheetIndex, progressPercent, currentSprintProgressPercent, selected}) => {
   // const scale = effortPoints / 25;
   const scale = normalize(effortPoints) / 22;
-  console.log(circleText, currentSprintProgressPercent);
+  //console.log(circleText, currentSprintProgressPercent);
   const circleColors = {
     0: 'linear-gradient(-60deg, #278181, #27BDBC, #78CDD0)',
     1: 'linear-gradient(-60deg, #288141, #42A24A, #7DC688)',
